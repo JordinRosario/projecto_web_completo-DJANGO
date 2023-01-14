@@ -1,0 +1,20 @@
+*{
+    background-color: rgb(233, 233, 233);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.caja1{
+    height: 50px;
+    max-width: 600px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+@media (max-width:600px){
+    .caja1{
+        max-width: 90%;
+    }
+}
