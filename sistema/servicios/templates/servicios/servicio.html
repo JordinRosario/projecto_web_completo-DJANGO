@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block tittle  %} Servicio {% endblock %}
+
+
+{% block content %}
+
+    {% for servicio in servicios %}
+        <h1 style="color: white;"> {{ servicio.titulo }} </h1>
+        <h4> {{ servicio.titulo }} </h4>
+        <p><img src="{{ servicio.imagen.url }}" alt=""></p>
+    {% endfor %}
+
+{% endblock %}
